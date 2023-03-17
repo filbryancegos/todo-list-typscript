@@ -32,27 +32,6 @@ const DEFAULT_CATEGORIES: Category[] = [
   },
 ];
 
-const DEFAULT_TODOS: Todos[] = [
-  { 
-    id: Math.floor(Math.random() * 100),
-    name: 'Business',  
-    isCompleted: false,
-    category: 'business',
-  },
-  { 
-    id: Math.floor(Math.random() * 100),
-    name: 'Personal',  
-    isCompleted: false,
-    category: 'personal',
-  },
-  { 
-    id: Math.floor(Math.random() * 100),
-    name: 'Social',  
-    isCompleted: false,
-    category: 'social',
-  },
-];
-
 const isTodos = localStorage.getItem('todos');
 
 let parsedValue: any[] = [];

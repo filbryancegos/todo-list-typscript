@@ -41,7 +41,7 @@ const InputTodo: React.FC<Props> = ({ todo, handleChange, handleSubmit, categori
           <input
             placeholder='Add todo here...' 
             value={todo} 
-            onChange={handleChange} className='flex items-center gap-2 bg-transparent p-4 w-full rounded-full text-white' />
+            onChange={handleChange} className='text-slate-500 flex items-center gap-2 bg-transparent p-4 w-full rounded-full' />
           <div className='h-6 w-6 rounded-full border-slate-700 bg-green-500 border flex justify-center items-center mr-3'>
               <button type='submit' className='text-white'><AiOutlinePlus /></button>
           </div>
