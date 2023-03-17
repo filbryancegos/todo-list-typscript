@@ -38,7 +38,8 @@ const InputTodo: React.FC<Props> = ({ todo, handleChange, handleSubmit, categori
         <form
           onSubmit={handleSubmit} 
           className={`flex gap-2 items-center justify-between`} >
-          <input 
+          <input
+            placeholder='Add todo here...' 
             value={todo} 
             onChange={handleChange} className='flex items-center gap-2 bg-transparent p-4 w-full rounded-full text-white' />
           <div className='h-6 w-6 rounded-full border-slate-700 bg-green-500 border flex justify-center items-center mr-3'>
